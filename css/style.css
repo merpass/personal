@@ -1,0 +1,439 @@
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  width: 95%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 300;
+  font-size: 1rem; }
+
+body:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  background: #9711f1;
+  background: -webkit-linear-gradient(to right, #af19f5, #5c0d39);
+  background: linear-gradient(to right, #4a095e, rgb(19, 97, 241)); 
+  }
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 36px;
+  margin-top:15px;
+  margin-left:20px;
+  margin-bottom:15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4{
+  font-size: 18px;
+  margin-top:10px;
+  margin-left:10px;
+  margin-bottom:10px;
+ }
+
+footer{
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  padding-top: 0.8em; 
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+a{
+  color: rgb(87, 87, 87);
+  text-decoration: none;
+}
+
+a:hover{
+  color:rgb(92, 12, 167);
+  font-weight: bold;
+}
+
+p{
+  margin: 0.8em;
+}
+
+.contenedor_ppal {
+  margin: 3em;
+  align-content: center;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.contenedor_ppal2 {
+  margin: 3em;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+img.zoom {
+  width: 100%;
+  margin-left: 1em;
+  transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.menu1{
+  list-style-type: none;
+  text-align: right;
+  margin-top:1em;
+  margin-bottom:1em;
+  justify-content: space-between;
+  color: black;
+  font-weight: bold;
+  padding: 0.3em;
+  align-items: center;
+}
+
+.menu2{
+  list-style-type: none;
+  text-align: right;
+  margin-left: 10em;
+  margin-top:1em;
+  margin-bottom:1em;
+  color: black;
+  font-weight: bold;
+}
+
+.ulexp{
+  list-style-type: disc;
+  padding: 0.3em;
+  margin: 4em;  
+}
+
+.ulexp li{
+  margin-top: 1em;
+}
+
+.colegio{
+  color:rgb(51, 99, 189);
+  font-weight: bold;
+}
+
+.foto_mia{
+  width: 43%;
+  height: auto;
+  float: left;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-left: 2em;
+}
+
+.texto_mio{
+  width: 95%;
+  align-content: left;
+  margin: 1em;
+}
+
+.img_logo{
+  width: 33%;
+}
+
+.menu_contacto{
+  width: 30px;
+  padding-right: 0.8em;
+  padding-left: 0.8em;
+  vertical-align: middle;
+}
+.menu_contacto2{
+  width: 50px;
+  padding-right: 0.8em;
+  padding-left: 0.8em;
+  vertical-align: middle;
+}
+
+.foto_hijos{
+  width: 30%;
+  height: auto;
+  float: left;
+  padding-right: 3em;
+  padding-left: 3em;
+}
+
+.experiencia {
+  padding: 5em;
+  margin: 0.5em;
+  text-align: left;
+  width: 95%;
+  align-content: left;
+  margin: 1em;
+}
+
+.carousel {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#logo{
+  width:50% ;
+  height: auto;
+  margin: 0%;
+  padding: 0%;
+}
+
+#logocont{
+  width:35% ;
+  height: auto;
+  margin: 5%;
+  padding: 0%;
+  border-radius: 30px;
+}
+
+#english{
+  width: 20% auto;
+  padding: 0.5em;
+  border-radius: 30px;
+}
+
+#english:hover{
+  background-color:rgb(138, 92, 211);
+  color:white
+}
+
+#top{
+  padding: 0.5em;
+  margin: 1.3em;
+  border-radius: 30px;
+}
+
+#top:hover{
+  background-color: rgb(138, 92, 211);
+  color:white;
+  text-decoration: none;
+}
+
+.arreglo{
+  margin-bottom: 1.2em;
+}
+
+#project {
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px){
+ body {
+    width: 100%;
+    font-weight: 200;
+    font-size: 0.8rem; }
+  
+h1{
+    font-size: 24px;
+    margin-top:8px;
+    margin-left:10px;
+    margin-bottom:7px;
+  }
+  
+  h4{
+    font-size: 12px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-bottom:5px;
+   }
+  
+  footer{
+    height: 40px;
+  }
+  
+  p{
+    margin: 0.5em;
+  }
+  
+  .contenedor_ppal {
+    margin: 1.5em;
+  }
+  .contenedor_ppal2 {
+    margin: 1.5em;
+  }
+   
+  .menu1{
+    list-style-type: none;
+    text-align: right;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding: 0.15em;
+  }
+  
+  .menu2{
+    margin-left: 3em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+  }
+  
+  .ulexp{
+    padding: 0.15em;
+    margin: 2em;  
+  }
+  
+  .ulexp li{
+    margin-top: 0.5em;
+  }
+  
+ .foto_mia{
+    padding-top: 0.5em;
+    padding-right: 1.5em;
+    padding-left: 1em;
+  }
+  
+  .texto_mio{
+   margin: 0.5em;
+  }
+  
+  .menu_contacto{
+    width: 20px;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+  }
+  .menu_contacto2{
+    width: 35px;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+  }
+  
+  .foto_hijos{
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+  }
+  
+  .experiencia {
+    padding: 2.5em;
+    margin: 0.25em;
+    margin: 0.5em;
+  }
+  
+ 
+  #top{
+    padding: 0.3em;
+    margin: 0.8em;
+  }
+  
+ .arreglo{
+    margin-bottom: 0.8em;
+  }
+}
+  
+@media screen and (max-width: 400px){
+  body {
+    width: 100%;
+    font-size: 0.6rem; }
+  
+h1{
+    font-size: 14px;
+    margin-top:4px;
+    margin-left:5px;
+    margin-bottom:4px;
+  }
+  
+  h4{
+    font-size: 10px;
+    margin-top:3px;
+    margin-left:3px;
+    margin-bottom:3px;
+   }
+  
+  footer{
+    height: 30px;
+  }
+  
+  p{
+    margin: 0.3em;
+  }
+  
+  .contenedor_ppal {
+    margin: 0.8em;
+  }
+  .contenedor_ppal2 {
+    margin: 0.8em;
+  }
+   
+  .menu1{
+    
+    margin-top:0.3em;
+    margin-bottom:0.3em;
+    padding: 0.1em;
+  }
+  
+  .menu2{
+    margin-left: 1.5em;
+    margin-top:0.3em;
+    margin-bottom:0.3em;
+  }
+  
+  .ulexp{
+    padding: 0.1em;
+    margin: 1em;  
+  }
+  
+  .ulexp li{
+    margin-top: 0.3em;
+  }
+  
+ .foto_mia{
+    padding-top: 0.3em;
+    padding-right: 2em;
+    padding-left: 1em;
+  }
+  
+  .texto_mio{
+   margin: 0.3em;
+  }
+  
+  .menu_contacto{
+    width: 15px;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+  }
+  .menu_contacto2{
+    width: 20px;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+  }
+  
+  .foto_hijos{
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+  }
+  
+  .experiencia {
+    padding: 1.2em;
+    margin: 0.12em;
+    margin: 0.12em;
+  }
+  
+ 
+  #top{
+    padding: 0.2em;
+    margin: 0.5em;
+  }
+  
+ .arreglo{
+    margin-bottom: 0.5em;
+  }
+}
